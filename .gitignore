@@ -1,5 +1,7 @@
 .gradle
 /build/
+GithubAccessKey.csv
+Windows-creds.txt
 
 # Ignore Gradle GUI config
 gradle-app.setting

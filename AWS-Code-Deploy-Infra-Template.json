@@ -138,7 +138,7 @@
                 "yum install ruby\n\n",
                 "yum install aws-cli\n\n",
                 "cd ~\n\n",
-                "aws s3 cp s3://aws-codedeploy-us-east-1/latest/install . --region us-east-1\n\n",
+                "aws s3 cp s3://aws-codedeploy-us-west-2/latest/install . --region us-west-2\n\n",
                 "chmod +x ./install\n\n",
                 "./install auto\n\n",
                 "echo 'hello world' > /var/www/html/index.html\n\n",
@@ -297,7 +297,7 @@
                   "echo hello world > c:\\inetpub\\wwwroot\\index.html\n",
                   "hostname >> c:\\inetpub\\wwwroot\\index.html\n",
                   "if not exist \"c:\temp\" mkdir c:\temp\n",
-                  "powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-us-east-1/latest -Key codedeploy-agent.msi -File c:\\temp\\codedeploy-agent.msi\n",
+                  "powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-us-west-2/latest -Key codedeploy-agent.msi -File c:\\temp\\codedeploy-agent.msi\n",
                   "c:\\temp\\codedeploy-agent.msi /quiet /l c:\\temp\\host-agent-install-log.txt\n",
                   "powershell.exe -Command Get-Service -Name codedeployagent\n",
                 "</script>\n"
